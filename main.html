@@ -1,0 +1,52 @@
+<head>
+  <meta name="referrer" content="origin">
+	<title>Sam's Accelerating Metronome</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <div class="row">
+        <div class="col-l">
+          <label  for="Initial (BPM)">Initial (BPM)</label>
+        </div>
+        <div class="col-75">
+          <input id='init_bpm' class='inp_buttons' type='number' value='120' placeholder='120'>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-l">
+          <label for="length">Time Length (Minutes)</label>
+        </div>
+          <div class="col-75"> <input id='length' class='inp_buttons' type='number' value='8' placeholder='8'>
+        </div>
+      </div>   
+      
+      <div class="row">
+        <div class="col-l">
+          <label for="goal_bpm">Goal (BPM)</label>
+        </div>
+        <div class="col-75"> <input id='goal_bpm' class='inp_buttons' type='number' value='160' placeholder='160'>	
+        </div>
+      </div>   
+
+      <div class="row">
+        <div class="col-l">
+          <label for="start">Current BPM: <span id='current_bpm'>150</span></label>
+        </div>
+        <div class="col-75"> <button id='start' class='control' onclick='start()'>Start</button>
+        </div>
+      </div>  
+      
+      <div class="row">
+        <div class="col-l">
+          <label for="stop">Remaining Time: <span id="remaining">0 </span></label>
+        </div>
+          <button id='stop' class='control' onclick='stop()'>Stop</button>
+        </div>
+      </div>  
+    
+    </div>
+  </div>
+
+</body>

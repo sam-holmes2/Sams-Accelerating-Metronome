@@ -1,0 +1,71 @@
+* {
+  font-family: "Source Sans Pro", "Times New Roman", Times;
+  box-sizing: border-box;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: center;
+  overflow: hidden;    
+  border-radius: 12px;      
+}
+
+body, div {
+ background-color: #252926; /* Grey */
+}
+
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #FAED26; /* Yellow */
+  width: 50%;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color:white;
+}
+
+button {  
+  font-size: 1.2em;
+  background-color: #4B14E2; /* Purple */
+  color: white;
+  cursor: pointer;
+  padding: 1em 0.8em 1em 0.8em;
+  margin: 0.2em;
+  border-color:
+}
+
+button:hover {
+  color: yellow;
+  border-color: #FAED26;
+}
+
+.col-l {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-l, .col-75, input[type=submit], label {
+    width: 100%;
+    margin-top: 0;
+    text-align:center;
+  }
+}

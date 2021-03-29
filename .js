@@ -1,3 +1,5 @@
+<script> cdnjs.cloudflare.com/ajax/libs/tone/14.7.12/Tone.js <\script> 
+
 console.clear();
 
 // Loads two drumstick sounds from my github

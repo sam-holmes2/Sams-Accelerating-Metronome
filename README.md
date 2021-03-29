@@ -1,2 +1,2 @@
-# Sam-s-Accelerating-Metronome
-Metronome build with tone.js with smoothly increasing bpm capability. 
+# Sam's Accelerating Metronome
+Metronome with smoothly increasing bpm capability, built using tone.js
